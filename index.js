@@ -11,8 +11,10 @@ bot.on('ready', () => {
   });
 
 bot.on('message', msg => {
-    if (msg.content === 'ping') {
-      msg.reply('pong');
-      msg.channel.send('pong');
+    if (msg.content.includes('5 mins')) {
+      setTimeout(() => {
+        msg.reply('5 MINS IS UP SCUM');
+        msg.channel.send('5 MINS IS UP SCUM');
+      }, 300000);       
     }
 });
