@@ -14,7 +14,6 @@ bot.on('message', msg => {
     if (msg.content.includes('5 mins')) {
       setTimeout(() => {
         msg.reply('5 MINS IS UP SCUM');
-        msg.channel.send('5 MINS IS UP SCUM');
       }, 300000);       
     }
 });
