@@ -1,9 +1,10 @@
 {
-  "name": "discord-bot-one",
+  "name": "time-cop",
   "version": "1.0.0",
-  "description": "",
+  "description": "A discord bot to police lying scum who take more time to join the game than they said they would",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "@jc2820",
@@ -11,5 +12,8 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
